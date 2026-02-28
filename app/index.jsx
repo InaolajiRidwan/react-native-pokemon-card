@@ -1,4 +1,5 @@
-import { Text, View } from "react-native";
+import {  View,StyleSheet } from "react-native";
+import PokemonCard from "../components/PokemonCard"
 
 export default function Index() {
   return (
@@ -9,7 +10,15 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+     <PokemonCard />
     </View>
   );
 }
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f5f5f5"
+  }
+})
