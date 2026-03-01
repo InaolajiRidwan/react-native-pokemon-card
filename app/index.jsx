@@ -1,10 +1,10 @@
 import {
   Platform,
-  SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
 } from "react-native";
+import {SafeAreaView} from "react-native-safe-area-context"
 import PokemonCard from "../components/PokemonCard";
 
 export default function Index() {
